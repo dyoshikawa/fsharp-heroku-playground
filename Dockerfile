@@ -6,4 +6,4 @@ RUN apk update && \
 
 ADD ./fsharp-heroku-playground/bin/Release/netcoreapp2.2/linux-musl-x64/publish /app
 
-ENTRYPOINT /app/fsharp-heroku-playground
+CMD /app/fsharp-heroku-playground
